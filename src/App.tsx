@@ -14,12 +14,10 @@ function App() {
         <NavBar />
       </GridItem>
 
-      <GridItem area={"aside"} bg={"gold"} hideBelow={"lg"}>
+      <GridItem area={"aside"} hideBelow={"lg"}>
         Aside
       </GridItem>
-      <GridItem area={"main"} bg={"cyan"}>
-        Main
-      </GridItem>
+      <GridItem area={"main"}>Main</GridItem>
     </Grid>
   );
 }
