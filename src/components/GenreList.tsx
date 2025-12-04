@@ -1,4 +1,5 @@
-import useGenres, { type Genre } from "@/hooks/useGenres";
+import useGenres from "@/hooks/useGenres";
+import type { Genre } from "../types/interfaces";
 import getCroppedImage from "@/services/imageUrl";
 import {
   Button,
